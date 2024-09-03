@@ -1,0 +1,17 @@
+2024-09-03 17:50:52,476 - INFO - Starting the process.
+2024-09-03 17:50:52,476 - INFO - Reading Excel files.
+2024-09-03 17:50:52,477 - ERROR - Error reading Excel files: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2024-09-03 17:58:03,253 - INFO - Starting the process.
+2024-09-03 17:58:03,253 - INFO - Reading Excel files.
+2024-09-03 17:58:03,690 - INFO - Excel files read successfully.
+2024-09-03 17:58:03,690 - INFO - Converting Excel files to CSV.
+2024-09-03 17:58:03,692 - INFO - Excel files converted to CSV successfully.
+2024-09-03 17:58:03,693 - INFO - Loading CSV files.
+2024-09-03 17:58:03,695 - INFO - CSV files loaded successfully.
+2024-09-03 17:58:03,695 - INFO - Generating email addresses.
+2024-09-03 17:58:03,696 - INFO - Email addresses generated successfully.
+2024-09-03 17:58:03,696 - INFO - Saving updated CSV files with email addresses.
+2024-09-03 17:58:03,697 - INFO - Updated CSV files saved successfully.
+2024-09-03 17:58:03,697 - INFO - Converting CSV files to TSV format.
+2024-09-03 17:58:03,699 - INFO - CSV files converted to TSV format successfully.
+2024-09-03 17:58:03,699 - INFO - Email addresses have been generated, and CSV files have been converted to TSV format successfully.

@@ -1,3 +1,0 @@
-2024-09-03 17:50:52,476 - INFO - Starting the process.
-2024-09-03 17:50:52,476 - INFO - Reading Excel files.
-2024-09-03 17:50:52,477 - ERROR - Error reading Excel files: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
