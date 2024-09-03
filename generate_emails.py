@@ -1,21 +1,46 @@
 import pandas as pd
-#Importing regular expressions(regex)
 import re
+import logging
 
-# Read the Excel data
-file_1 = pd.read_excel(r'./excel_files/test_file_1.xlsx')
-file_2 = pd.read_excel(r'./excel_files/test_file_2.xlsx')
+# Set up logging
+logging.basicConfig(
+    filename='./logs/process.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
-# Convert to CSV files for easier manipulation
-file_1.to_csv('./csv_files/test_csv_file_1.csv', index=False, header=True)
-file_2.to_csv('./csv_files/test_csv_file_2.csv', index=False, header=True)
+# Log start of the process
+logging.info('Starting the process.')
 
-# Load the CSV files again
-df_1 = pd.read_csv('./csv_files/test_csv_file_1.csv')
-df_2 = pd.read_csv('./csv_files/test_csv_file_2.csv')
+try:
+    # Read the Excel data
+    logging.info('Reading Excel files.')
+    file_1 = pd.read_excel(r'./excel_files/test_file_1.xlsx')
+    file_2 = pd.read_excel(r'./excel_files/test_file_2.xlsx')
+    logging.info('Excel files read successfully.')
+except Exception as e:
+    logging.error(f'Error reading Excel files: {e}')
+    raise
 
-# Confirm successful conversion
-print('The Excel files have been converted to CSV files.')
+try:
+    # Convert to CSV files for easier manipulation
+    logging.info('Converting Excel files to CSV.')
+    file_1.to_csv('./csv_files/test_csv_file_1.csv', index=False, header=True)
+    file_2.to_csv('./csv_files/test_csv_file_2.csv', index=False, header=True)
+    logging.info('Excel files converted to CSV successfully.')
+except Exception as e:
+    logging.error(f'Error converting Excel files to CSV: {e}')
+    raise
+
+try:
+    # Load the CSV files again
+    logging.info('Loading CSV files.')
+    df_1 = pd.read_csv('./csv_files/test_csv_file_1.csv')
+    df_2 = pd.read_csv('./csv_files/test_csv_file_2.csv')
+    logging.info('CSV files loaded successfully.')
+except Exception as e:
+    logging.error(f'Error loading CSV files: {e}')
+    raise
 
 # Domain for email addresses
 domain = "gmail.com"
@@ -34,16 +59,34 @@ def generate_email(name, domain):
         return 'invalid@example.com'
 
 # Apply the function to generate emails
-df_1['Email Address'] = df_1['Student Name'].apply(lambda x: generate_email(x, domain))
-df_2['Email Address'] = df_2['Student Name'].apply(lambda x: generate_email(x, domain))
+try:
+    logging.info('Generating email addresses.')
+    df_1['Email Address'] = df_1['Student Name'].apply(lambda x: generate_email(x, domain))
+    df_2['Email Address'] = df_2['Student Name'].apply(lambda x: generate_email(x, domain))
+    logging.info('Email addresses generated successfully.')
+except Exception as e:
+    logging.error(f'Error generating email addresses: {e}')
+    raise
 
-# Save the updated DataFrames with emails to CSV files
-df_1.to_csv('./csv_files/test_csv_file_1_with_emails.csv', index=False)
-df_2.to_csv('./csv_files/test_csv_file_2_with_emails.csv', index=False)
+try:
+    # Save the updated DataFrames with emails to CSV files
+    logging.info('Saving updated CSV files with email addresses.')
+    df_1.to_csv('./csv_files/test_csv_file_1_with_emails.csv', index=False)
+    df_2.to_csv('./csv_files/test_csv_file_2_with_emails.csv', index=False)
+    logging.info('Updated CSV files saved successfully.')
+except Exception as e:
+    logging.error(f'Error saving updated CSV files: {e}')
+    raise
 
-# Convert CSV files to TSV files
-df_1.to_csv('./tsv_files/test_csv_file_1_with_emails.tsv', sep='\t', index=False)
-df_2.to_csv('./tsv_files/test_csv_file_2_with_emails.tsv', sep='\t', index=False)
+try:
+    # Convert CSV files to TSV files
+    logging.info('Converting CSV files to TSV format.')
+    df_1.to_csv('./tsv_files/test_csv_file_1_with_emails.tsv', sep='\t', index=False)
+    df_2.to_csv('./tsv_files/test_csv_file_2_with_emails.tsv', sep='\t', index=False)
+    logging.info('CSV files converted to TSV format successfully.')
+except Exception as e:
+    logging.error(f'Error converting CSV files to TSV: {e}')
+    raise
 
 # Confirm successful generation of email addresses and TSV conversion
-print('Email addresses have been generated, and CSV files have been converted to TSV format successfully.')
+logging.info('Email addresses have been generated, and CSV files have been converted to TSV format successfully.')
