@@ -1,0 +1,105 @@
+2024-09-05 15:29:54,276 - INFO - Starting the process.
+2024-09-05 15:29:54,276 - INFO - Reading Excel files.
+2024-09-05 15:29:54,651 - INFO - Excel files read successfully.
+2024-09-05 15:29:54,651 - INFO - Converting Excel files to CSV.
+2024-09-05 15:29:54,653 - INFO - Excel files converted to CSV successfully.
+2024-09-05 15:29:54,654 - INFO - Loading CSV files.
+2024-09-05 15:29:54,655 - INFO - CSV files loaded successfully.
+2024-09-05 15:29:54,655 - INFO - Generating email addresses.
+2024-09-05 15:29:54,656 - INFO - Email addresses generated successfully.
+2024-09-05 15:29:54,656 - INFO - Saving updated CSV files with email addresses.
+2024-09-05 15:29:54,657 - INFO - Updated CSV files saved successfully.
+2024-09-05 15:29:54,657 - INFO - Converting CSV files to TSV format.
+2024-09-05 15:29:54,659 - INFO - CSV files converted to TSV format successfully.
+2024-09-05 15:29:54,659 - INFO - Email addresses have been generated, and CSV files have been converted to TSV format successfully.
+2024-09-06 07:49:02,364 - INFO - Starting the process.
+2024-09-06 07:49:02,365 - INFO - Reading Excel files.
+2024-09-06 07:49:02,890 - INFO - Excel files read successfully.
+2024-09-06 07:49:02,890 - INFO - Converting Excel files to CSV.
+2024-09-06 07:49:02,894 - INFO - Excel files converted to CSV successfully.
+2024-09-06 07:49:02,894 - INFO - Loading CSV files.
+2024-09-06 07:49:02,896 - INFO - CSV files loaded successfully.
+2024-09-06 07:49:02,896 - INFO - Generating email addresses.
+2024-09-06 07:49:02,897 - INFO - Email addresses generated successfully.
+2024-09-06 07:49:02,897 - INFO - Saving updated CSV files with email addresses.
+2024-09-06 07:49:02,898 - INFO - Updated CSV files saved successfully.
+2024-09-06 07:49:02,898 - INFO - Converting CSV files to TSV format.
+2024-09-06 07:49:02,900 - INFO - CSV files converted to TSV format successfully.
+2024-09-06 07:49:02,901 - INFO - Number of male students: 80
+2024-09-06 07:49:02,901 - INFO - Number of female students: 48
+2024-09-06 07:49:02,902 - INFO - Student names with special characters in file 1: []
+2024-09-06 07:49:02,902 - INFO - Student names with special characters in file 2: []
+2024-09-06 07:49:02,902 - INFO - Email addresses have been generated, and CSV files have been converted to TSV format successfully.
+2024-09-06 07:58:17,327 - INFO - Starting the process.
+2024-09-06 07:58:17,328 - INFO - Reading Excel files.
+2024-09-06 07:58:17,846 - INFO - Excel files read successfully.
+2024-09-06 07:58:17,846 - INFO - Converting Excel files to CSV.
+2024-09-06 07:58:17,849 - INFO - Excel files converted to CSV successfully.
+2024-09-06 07:58:17,849 - INFO - Loading CSV files.
+2024-09-06 07:58:17,852 - INFO - CSV files loaded successfully.
+2024-09-06 07:58:17,852 - INFO - Generating email addresses.
+2024-09-06 07:58:17,852 - INFO - Email addresses generated successfully.
+2024-09-06 07:58:17,853 - INFO - Saving updated CSV files with email addresses.
+2024-09-06 07:58:17,854 - INFO - Updated CSV files saved successfully.
+2024-09-06 07:58:17,854 - INFO - Converting CSV files to TSV format.
+2024-09-06 07:58:17,856 - INFO - CSV files converted to TSV format successfully.
+2024-09-06 07:58:17,857 - INFO - Number of male students: 80
+2024-09-06 07:58:17,857 - INFO - Number of female students: 48
+2024-09-06 07:58:17,858 - INFO - Student names with special characters in file 1: []
+2024-09-06 07:58:17,858 - INFO - Student names with special characters in file 2: []
+2024-09-06 07:58:17,858 - INFO - Email addresses have been generated, and CSV files have been converted to TSV format successfully.
+2024-09-06 08:30:25,170 - INFO - Starting the process.
+2024-09-06 08:30:25,170 - INFO - Reading Excel files.
+2024-09-06 08:30:25,682 - INFO - Excel files read successfully.
+2024-09-06 08:30:25,682 - INFO - Converting Excel files to CSV.
+2024-09-06 08:30:25,686 - INFO - Excel files converted to CSV successfully.
+2024-09-06 08:30:25,686 - INFO - Loading CSV files.
+2024-09-06 08:30:25,688 - INFO - CSV files loaded successfully.
+2024-09-06 08:30:25,688 - INFO - Generating email addresses.
+2024-09-06 08:30:25,689 - INFO - Email addresses generated successfully.
+2024-09-06 08:30:25,689 - INFO - Saving updated CSV files with email addresses.
+2024-09-06 08:30:25,690 - INFO - Updated CSV files saved successfully.
+2024-09-06 08:30:25,690 - INFO - Converting CSV files to TSV format.
+2024-09-06 08:30:25,691 - INFO - CSV files converted to TSV format successfully.
+2024-09-06 08:30:41,644 - INFO - Starting the process.
+2024-09-06 08:30:41,644 - INFO - Reading Excel files.
+2024-09-06 08:30:42,027 - INFO - Excel files read successfully.
+2024-09-06 08:30:42,027 - INFO - Converting Excel files to CSV.
+2024-09-06 08:30:42,030 - INFO - Excel files converted to CSV successfully.
+2024-09-06 08:30:42,030 - INFO - Loading CSV files.
+2024-09-06 08:30:42,032 - INFO - CSV files loaded successfully.
+2024-09-06 08:30:42,032 - INFO - Generating email addresses.
+2024-09-06 08:30:42,033 - INFO - Email addresses generated successfully.
+2024-09-06 08:30:42,033 - INFO - Saving updated CSV files with email addresses.
+2024-09-06 08:30:42,035 - INFO - Updated CSV files saved successfully.
+2024-09-06 08:30:42,035 - INFO - Converting CSV files to TSV format.
+2024-09-06 08:30:42,036 - INFO - CSV files converted to TSV format successfully.
+2024-09-06 08:30:42,041 - INFO - Shuffled data saved as JSON and JSONL files successfully.
+2024-09-06 08:35:46,233 - INFO - Starting the process.
+2024-09-06 08:35:46,233 - INFO - Reading Excel files.
+2024-09-06 08:35:46,761 - INFO - Excel files read successfully.
+2024-09-06 08:35:46,761 - INFO - Converting Excel files to CSV.
+2024-09-06 08:35:46,764 - INFO - Excel files converted to CSV successfully.
+2024-09-06 08:35:46,764 - INFO - Loading CSV files.
+2024-09-06 08:35:46,766 - INFO - CSV files loaded successfully.
+2024-09-06 08:35:46,766 - INFO - Generating email addresses.
+2024-09-06 08:35:46,767 - INFO - Email addresses generated successfully.
+2024-09-06 08:35:46,767 - INFO - Saving updated CSV files with email addresses.
+2024-09-06 08:35:46,769 - INFO - Updated CSV files saved successfully.
+2024-09-06 08:35:46,769 - INFO - Converting CSV files to TSV format.
+2024-09-06 08:35:46,770 - INFO - CSV files converted to TSV format successfully.
+2024-09-06 08:35:46,777 - INFO - Shuffled data saved as JSON and JSONL files successfully.
+2024-09-06 08:49:36,806 - INFO - Starting the process.
+2024-09-06 08:49:36,806 - INFO - Reading Excel files.
+2024-09-06 08:49:37,399 - INFO - Excel files read successfully.
+2024-09-06 08:49:37,399 - INFO - Converting Excel files to CSV.
+2024-09-06 08:49:37,403 - INFO - Excel files converted to CSV successfully.
+2024-09-06 08:49:37,403 - INFO - Loading CSV files.
+2024-09-06 08:49:37,406 - INFO - CSV files loaded successfully.
+2024-09-06 08:49:37,406 - INFO - Generating email addresses.
+2024-09-06 08:49:37,408 - INFO - Email addresses generated successfully.
+2024-09-06 08:49:37,408 - INFO - Saving updated CSV files with email addresses.
+2024-09-06 08:49:37,410 - INFO - Updated CSV files saved successfully.
+2024-09-06 08:49:37,410 - INFO - Converting CSV files to TSV format.
+2024-09-06 08:49:37,413 - INFO - CSV files converted to TSV format successfully.
+2024-09-06 08:49:37,426 - INFO - Shuffled data saved as JSON and JSONL files successfully.

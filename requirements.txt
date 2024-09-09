@@ -2,3 +2,7 @@ pandas
 openpyxl
 matplotlib
 logging
+json
+transformers
+torch
+sklearn
