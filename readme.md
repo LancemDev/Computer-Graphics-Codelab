@@ -1,41 +1,45 @@
-# Student Data Processing Project
+# Computer Graphics Codelab
 
-This project processes student data from Excel files, generates email addresses, and creates various output files including CSV, TSV, JSON, and JSONL formats.
+This Codelab processes student data from Excel files, generates email addresses, and creates various output files including CSV, TSV, JSON, and JSONL formats.
+
 
 ## Project Structure
 project_root/
 │
 ├── excel_files/
-│ ├── test_file_1.xlsx
-│ └── test_file_2.xlsx
+│   ├── test_file_1.xlsx
+│   └── test_file_2.xlsx
 │
 ├── csv_files/
-│ ├── test_csv_file_1.csv
-│ ├── test_csv_file_2.csv
-│ ├── male_students_list.csv
-│ ├── female_students_list.csv
-│ └── special_character_names.csv
+│   ├── test_csv_file_1.csv
+│   ├── test_csv_file_2.csv
+│   ├── male_students_list.csv
+│   ├── female_students_list.csv
+│   └── special_character_names.csv
 │
 ├── tsv_files/
-│ ├── test_csv_file_1_with_emails.tsv
-│ ├── test_csv_file_2_with_emails.tsv
-│ ├── male_students_list.tsv
-│ ├── female_students_list.tsv
-│ └── special_character_names.tsv
+│   ├── test_csv_file_1_with_emails.tsv
+│   ├── test_csv_file_2_with_emails.tsv
+│   ├── male_students_list.tsv
+│   ├── female_students_list.tsv
+│   └── special_character_names.tsv
 │
 ├── json_files/
-│ ├── shuffled_students.json
-│ └── shuffled_students.jsonl
+│   ├── shuffled_students.json
+│   └── shuffled_students.jsonl
 │
 ├── logs/
-│ └── process.log
+│   └── process.log
 │
 ├── main.py
 ├── functions.py
 ├── constraints.py
 ├── generate_emails.py
 ├── merge_shuffle.py
-└── generate_gender_lists.py
+├── generate_gender_lists.py
+├── requirements.txt
+└── README.md
+
 
 
 ## Folder Descriptions
@@ -71,8 +75,8 @@ project_root/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/student-data-processing.git
-   cd student-data-processing
+   git clone https://github.com/LancemDev/Computer-Graphics-Codelab.git
+   cd Computer-Graphics-Codelab
    ```
 
 2. Create a virtual environment:
