@@ -4,6 +4,7 @@ This Codelab processes student data from Excel files, generates email addresses,
 
 
 ## Project Structure
+```
 project_root/
 │
 ├── excel_files/
@@ -39,6 +40,7 @@ project_root/
 ├── generate_gender_lists.py
 ├── requirements.txt
 └── README.md
+```
 
 
 
