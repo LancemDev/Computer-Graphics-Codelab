@@ -103,3 +103,37 @@
 2024-09-06 08:49:37,410 - INFO - Converting CSV files to TSV format.
 2024-09-06 08:49:37,413 - INFO - CSV files converted to TSV format successfully.
 2024-09-06 08:49:37,426 - INFO - Shuffled data saved as JSON and JSONL files successfully.
+2024-09-10 07:50:51,492 - ERROR - Error reading Excel file ./excel_files/test_file_1.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2024-09-10 07:51:17,185 - ERROR - Error in generate_emails_for_dataframe: 'Name'
+2024-09-10 07:52:12,277 - ERROR - Error in generate_emails_for_dataframe: 'Name'
+2024-09-10 08:10:01,766 - INFO - Number of male students: 40
+2024-09-10 08:10:01,766 - INFO - Number of female students: 24
+2024-09-10 08:10:01,778 - INFO - Saved gender lists to CSV and TSV files.
+2024-09-10 08:10:01,782 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 08:10:01,784 - INFO - Saved special character names to CSV and TSV files.
+2024-09-10 08:10:01,938 - INFO - Number of male students: 40
+2024-09-10 08:10:01,938 - INFO - Number of female students: 24
+2024-09-10 08:10:01,946 - INFO - Saved gender lists to CSV and TSV files.
+2024-09-10 08:10:01,946 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 08:10:01,946 - INFO - Saved special character names to CSV and TSV files.
+2024-09-10 08:13:54,956 - INFO - Number of male students: 40
+2024-09-10 08:13:54,956 - INFO - Number of female students: 24
+2024-09-10 08:13:54,965 - INFO - Saved gender lists to CSV and TSV files.
+2024-09-10 08:13:54,965 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 08:13:54,967 - INFO - Saved special character names to CSV and TSV files.
+2024-09-10 08:13:55,106 - INFO - Number of male students: 40
+2024-09-10 08:13:55,106 - INFO - Number of female students: 24
+2024-09-10 08:13:55,106 - INFO - Saved gender lists to CSV and TSV files.
+2024-09-10 08:13:55,106 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 08:13:55,115 - INFO - Saved special character names to CSV and TSV files.
+2024-09-10 08:17:36,996 - INFO - Number of male students: 40
+2024-09-10 08:17:36,996 - INFO - Number of female students: 24
+2024-09-10 08:17:37,002 - INFO - Saved gender lists to CSV and TSV files.
+2024-09-10 08:17:37,002 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 08:17:37,004 - INFO - Saved special character names to CSV and TSV files.
+2024-09-10 08:17:37,150 - INFO - Number of male students: 40
+2024-09-10 08:17:37,150 - INFO - Number of female students: 24
+2024-09-10 08:17:37,155 - INFO - Saved gender lists to CSV and TSV files.
+2024-09-10 08:17:37,155 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 08:17:37,155 - INFO - Saved special character names to CSV and TSV files.
+2024-09-10 08:17:37,170 - INFO - Process completed successfully.
